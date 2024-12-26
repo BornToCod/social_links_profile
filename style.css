@@ -15,7 +15,10 @@ a:link
     text-decoration: none;
     color: white;
 }
-
+a:focus
+{
+    color:aliceblue;
+}
 body 
  {
     position: relative;
