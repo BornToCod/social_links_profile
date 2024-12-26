@@ -73,11 +73,18 @@ h4
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.6s ease;
 }
 .container a:hover
 {
-    background-color: hsl(0, 0%, 30%);
+    background-color:hsl(75, 94%, 60%);
+    color: black;
+}
+
+.container a:focus
+{
+    background-color:hsl(75, 94%, 57%);
+    color: black;
 }
 .attribution {
     color: white;
