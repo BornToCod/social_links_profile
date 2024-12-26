@@ -1,0 +1,111 @@
+@font-face {
+    font-family: 'MyFont';
+    src: url('assets/fonts/Inter-VariableFont_slnt,wght.ttf') format('truetype'),
+    font-weight: normal;
+    font-style: normal;
+  }
+*
+{
+    box-sizing: border-box;
+    margin: 5px 0;
+    padding: 0;
+}
+body 
+ {
+    position: relative;
+    background-color:black;
+    color:hsl(0, 0%, 100%);
+    font-family: 'MyFont', sans-serif;
+    margin: 0;
+    padding: 0;
+    height:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+
+h4
+{
+    color:hsl(75, 94%, 57%);
+}
+.container
+{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 15%);
+    width:35%;
+    height: auto;
+    margin:13% auto;
+    padding:20px;
+}
+.container img
+{
+    width:20%;
+    height: auto;
+    border-radius: 50%;
+}
+.container  div
+{
+    /* display:black; */
+    width: 100%;
+    height: auto;
+    /* margin: 10px 10px; */
+    /* padding: 10px; */
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* transition: background-color 0.3s ease; */
+}
+.container a
+{
+    background-color: hsl(0, 0%, 25%);
+    width: 95%;
+    font-size:1rem;
+    height: auto;
+    /* margin: -5px 10px !important; */
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.container a:hover
+{
+    background-color: hsl(0, 0%, 30%);
+}
+.attribution {
+    color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    background-color: hsl(0, 0%, 80%);
+    padding: 10px 0;
+}
+
+@media (max-width: 375px) 
+{
+    body {
+        font-size: 16px;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        height:100vh;
+    }
+   .container {
+        width:95%;
+        margin:15% auto;
+   }
+   .container a
+    {
+        font-size:0.9rem;
+        padding:8px;
+    }
+}
