@@ -15,6 +15,7 @@ a:link
     text-decoration: none;
     color: white;
 }
+
 body 
  {
     position: relative;
@@ -89,7 +90,7 @@ h4
 .container a:focus
 {
     background-color:hsl(75, 94%, 57%);
-    color: black;
+    color: black !important;
 }
 .attribution {
     color: white;
